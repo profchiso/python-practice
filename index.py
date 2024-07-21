@@ -27,6 +27,31 @@ print(z)
 
 myName="Chinedu Okorie"
 def sayMyName(name):
-    print(name)
+    if name=="Chinedu":
+       print(name)
+    else:
+        print("Not Chinedu")
     
-sayMyName("chinedu sunday okorie")
+    
+sayMyName("chinedu")
+
+#casting
+x= str(10)
+print(x)
+y=40
+print(y)
+
+print (float(5))
+import random
+print(random.randrange(1,10))
+
+if "chinedu" in "chinedu is a man":
+    print("true")
+else:
+    print("false")
+    
+age=20
+myName =f"Chinedu sunday i am  {age} years old"
+print(myName)
+
+print("ChineDu okorie".swapcase())
