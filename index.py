@@ -77,3 +77,12 @@ i=0;
 while i < len(mums):
     print(mums[i]+1)
     i=i+1
+   
+evens=[] 
+def filterEven(numbers):
+    for n in numbers:
+        if n%2==0:
+           evens.append(n)
+ 
+filterEven([1,3,5,6,7,8,9,10,]) 
+print(evens) 
