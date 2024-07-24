@@ -86,3 +86,16 @@ def filterEven(numbers):
  
 filterEven([1,3,5,6,7,8,9,10,]) 
 print(evens) 
+
+list1=[3,6,1,2,7,8,0]
+list1.sort()
+print(list1)
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse = True)
+print(thislist)
+
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
