@@ -55,3 +55,25 @@ myName =f"Chinedu sunday i am  {age} years old"
 print(myName)
 
 print("ChineDu okorie".swapcase())
+
+print(bool(""))
+
+print (2<5 or 5<2)
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist[-2])
+
+print(len(thislist))
+
+for item in thislist:
+    print(item)
+    
+    
+[(print(x)) for x in thislist] #shorthand for looping
+
+
+mums =[1,2,3,4,]
+i=0;
+while i < len(mums):
+    print(mums[i]+1)
+    i=i+1
